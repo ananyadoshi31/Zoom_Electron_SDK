@@ -1,0 +1,3 @@
+win32 native sdk version:win_meetingsdk_5.13.10.13355_x86
+win64 native sdk version:win_meetingsdk_5.13.10.13355_x64
+mac native sdk version:universal_mac_meetingsdk_5.13.10.16357

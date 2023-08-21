@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\build",
+    "\\sdk",
+    "\\sdk\\win32"
+  ],
+  "SelectedNode": "\\build\\zoomsdk_napi_util.vcxproj",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "zoom-electron-meeting-sdk",
+  "version": "5.13.10",
+  "author": "zoom",
+  "description": "electron-meeting-sdk-demo",
+  "scripts": {
+    "install": "node scripts/electron_sdk_install.js",
+    "electron:build": "node scripts/electron_sdk_build.js",
+    "electron:serve": "electron-rebuild && node scripts/electron_sdk_serve.js",
+    "electron:buildNode": "electron-rebuild && node scripts/electron_sdk_buildNode.js",
+    "clean": "rimraf build",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@electron/remote": "^2.0.7",
+    "@element-plus/icons-vue": "^1.1.4",
+    "@zoomus/websdk": "^2.14.0",
+    "core-js": "^3.6.5",
+    "electron": "19.0.0",
+    "element-plus": "^2.1.7",
+    "google-protobuf": "^3.19.4",
+    "terser-webpack-plugin": "^2.3.5",
+    "vue": "^3.2.20",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "zoomus-jssdk": "^1.7.1"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.2.13",
+    "@vue/cli-plugin-babel": "^5.0.4",
+    "@vue/cli-plugin-router": "^5.0.4",
+    "@vue/cli-plugin-typescript": "^5.0.4",
+    "@vue/cli-plugin-vuex": "^5.0.4",
+    "@vue/cli-service": "^5.0.4",
+    "@vue/compiler-sfc": "^3.2.33",
+    "babel-plugin-component": "^1.1.1",
+    "electron-rebuild": "^3.2.9",
+    "native-ext-loader": "^2.3.0",
+    "nodemon": "^3.0.1",
+    "path-browserify": "^1.0.1",
+    "rimraf": "^5.0.1",
+    "sass": "~1.32.6",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "~8.2.0",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-electron-builder": "^2.1.1",
+    "vue-cli-plugin-element-plus": "^0.0.13"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "config": {}
+}
